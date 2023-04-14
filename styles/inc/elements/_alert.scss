@@ -1,0 +1,50 @@
+@layer components {
+  .alert {
+    @apply p-4 mb-4 rounded-lg;
+    &.alert-primary {
+      @apply text-primary bg-primary-50 dark:bg-gray-800 dark:text-primary-400;
+      &.alert-filled {
+        @apply bg-primary text-white;
+      }
+      &.alert-bordered {
+        @apply border border-primary text-primary dark:border-gray-800;
+      }
+    }
+    &.alert-success {
+      @apply text-success bg-success-50 dark:bg-gray-800 dark:text-success-400;
+      &.alert-filled {
+        @apply bg-success text-white;
+      }
+      &.alert-bordered {
+        @apply border border-success text-success dark:border-gray-800;
+      }
+    }
+    &.alert-danger {
+      @apply text-danger bg-danger-50 dark:bg-gray-800 dark:text-danger-400;
+      &.alert-filled {
+        @apply bg-danger text-white;
+      }
+      &.alert-bordered {
+        @apply border border-danger text-danger dark:border-gray-800;
+      }
+    }
+    &.alert-info {
+      @apply text-info bg-info-50 dark:bg-gray-800 dark:text-info-400;
+      &.alert-filled {
+        @apply bg-info text-white;
+      }
+      &.alert-bordered {
+        @apply border border-info text-info dark:border-gray-800;
+      }
+    }
+    &.alert-warning {
+      @apply text-warning bg-warning-50 dark:bg-gray-800 dark:text-warning-400;
+      &.alert-filled {
+        @apply bg-warning text-white;
+      }
+      &.alert-bordered {
+        @apply border border-warning text-warning dark:border-gray-800;
+      }
+    }
+  }
+}
